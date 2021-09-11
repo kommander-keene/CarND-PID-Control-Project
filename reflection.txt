@@ -1,0 +1,19 @@
+Describe the effect each of the P, I, D components had in your implementation:
+
+When working on this project, I noticed the following:
+
+Adjusting the P value caused the car to 
+"oscillate" back and forth more frequently.
+
+Adjusting the I value caused the car's oscillations to become more smoother
+over time.
+
+And finally, Adjusting the the D value caused the car to not oscillate at all; however, it started to make very sharp turns and was unable to adjust to curves rapidly.
+
+Although I had already known about how changing PID would cause the velocity graph to change, it was surprising to see it in action with a car driving along a path.
+
+Describe how the final hyperparameters were chosen
+
+Ultimately, the final hyperparameters were chosen through guess and checking. 
+I manually tuned each of values until I managed to get the car to go around the track.
+   
